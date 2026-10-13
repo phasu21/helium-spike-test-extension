@@ -1,0 +1,20 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Helium Spike</title>
+<style>
+body{font-family:system-ui,sans-serif;margin:0;padding:24px;text-align:center;background:#111;color:#eee}
+#ver{font-size:72px;font-weight:700;margin:24px 0}
+button{font-size:16px;padding:10px 18px;border-radius:8px;border:0;background:#3b82f6;color:#fff;cursor:pointer}
+#count{font-size:32px;font-variant-numeric:tabular-nums;margin:20px 0 4px}
+.muted{color:#999;font-size:13px}
+#status{margin-top:12px;min-height:1.2em}
+</style></head>
+<body>
+<div class="muted">Helium Spike Test</div>
+<div id="ver">–</div>
+<button id="check">Check for update</button>
+<div id="status"></div>
+<div id="count">--:--</div>
+<div class="muted">until next auto-update check (every 5 min)</div>
+<p class="muted" id="last">Last check: never</p>
+<script src="sidepanel.js"></script>
+</body></html>

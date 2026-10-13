@@ -1,0 +1,12 @@
+{
+  "name": "Helium Spike Test",
+  "version": "1.1",
+  "manifest_version": 3,
+  "description": "Dummy extension to test off-store install and self-hosted auto-update in Helium.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA00C2lEgWivcS1ERaODT3O/4ZO+RJhOsaolDmKgufosGNo0eY1QXTKcIgl82xT7+8urKApjislWOGOsOjSNlPn3IZDGAMxMDQS7nmX9Y+egjFU8ahjwlZTXpY/Hk2PBBeDopj917skupmGM+qydpcIdIKkKV/LuuVLZDmhdYpfSMOAFPeHHZLm1ywMx7ZhxOpod8ow/ZSdXxRvn/8IoAbsDQ8o+O+TfUtNhzGBvvR+dFun13J6bkWOEoEJYaI9BqHHIYK4M0fg1s3xmu63nZ3CkqAzGZDEiAooawOd7ePRuYry5mRFGon/aVzvrJHxLW1Ij6tHwPGPqnyCEglqxu1kQIDAQAB",
+  "update_url": "https://phasu21.github.io/helium-spike-test-extension/updates.xml",
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "Helium Spike Test" },
+  "side_panel": { "default_path": "sidepanel.html" },
+  "permissions": ["sidePanel", "alarms", "storage"]
+}
